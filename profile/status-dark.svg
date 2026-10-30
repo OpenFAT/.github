@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" role="img" aria-labelledby="t d">
 <title id="t">OpenFAT project status</title>
-<desc id="d">Per project: issues closed and still open, and commits per week over the last 26 weeks. The table below the chart has the same projects. Updated 2026-10-30.</desc>
+<desc id="d">Per project: issues closed and still open, and commits per week over the last 26 weeks. The table below the chart has the same projects. Updated 2026-10-29.</desc>
 <text x="0" y="22" font-size="18" font-weight="600" fill="#f0f6fc">Project status</text>
-<text x="0" y="44" font-size="12" fill="#9198a1">Issues closed so far, and commits per week over the last 26 weeks (each row on its own scale). Updated 2026-10-30.</text>
+<text x="0" y="44" font-size="12" fill="#9198a1">Issues closed so far, and commits per week over the last 26 weeks (each row on its own scale). Updated 2026-10-29.</text>
 <rect x="210" y="66" width="10" height="10" rx="2" fill="#3987e5"/>
 <text x="225" y="75" font-size="12" fill="#9198a1">closed</text>
 <rect x="280" y="66" width="10" height="10" rx="2" fill="#184f95"/>
@@ -83,15 +83,15 @@
 <line x1="600" y1="525.0" x2="820" y2="525.0" stroke="#30363d" stroke-width="1"/>
 <polyline points="600.0,525.0 608.8,525.0 617.6,525.0 626.4,525.0 635.2,525.0 644.0,525.0 652.8,525.0 661.6,525.0 670.4,525.0 679.2,525.0 688.0,525.0 696.8,525.0 705.6,525.0 714.4,525.0 723.2,525.0 732.0,525.0 740.8,525.0 749.6,525.0 758.4,525.0 767.2,525.0 776.0,525.0 784.8,525.0 793.6,525.0 802.4,525.0 811.2,525.0 820.0,505.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <text x="830" y="519.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">144 commits</text>
-<text x="0" y="548" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">VERIFICATION</text>
-<line x1="0" y1="553" x2="920" y2="553" stroke="#30363d" stroke-width="1"/>
-<text x="0" y="575.0" font-size="13" font-weight="500" fill="#f0f6fc">GPurify</text>
-<rect x="210" y="566.0" width="48" height="10" rx="3" fill="#3987e5"/>
-<rect x="260" y="566.0" width="200" height="10" rx="3" fill="#184f95"/>
-<text x="470" y="575.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">20% closed · 20 open</text>
-<line x1="600" y1="581.0" x2="820" y2="581.0" stroke="#30363d" stroke-width="1"/>
-<polyline points="600.0,581.0 608.8,581.0 617.6,581.0 626.4,581.0 635.2,581.0 644.0,581.0 652.8,581.0 661.6,581.0 670.4,581.0 679.2,581.0 688.0,581.0 696.8,581.0 705.6,581.0 714.4,581.0 723.2,581.0 732.0,581.0 740.8,581.0 749.6,581.0 758.4,581.0 767.2,581.0 776.0,581.0 784.8,581.0 793.6,581.0 802.4,581.0 811.2,581.0 820.0,561.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="830" y="575.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">253 commits</text>
+<text x="0" y="549.0" font-size="13" font-weight="500" fill="#f0f6fc">GPurify</text>
+<rect x="210" y="540.0" width="48" height="10" rx="3" fill="#3987e5"/>
+<rect x="260" y="540.0" width="200" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="549.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">20% closed · 20 open</text>
+<line x1="600" y1="555.0" x2="820" y2="555.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,555.0 608.8,555.0 617.6,555.0 626.4,555.0 635.2,555.0 644.0,555.0 652.8,555.0 661.6,555.0 670.4,555.0 679.2,555.0 688.0,555.0 696.8,555.0 705.6,555.0 714.4,555.0 723.2,555.0 732.0,555.0 740.8,555.0 749.6,555.0 758.4,555.0 767.2,555.0 776.0,555.0 784.8,555.0 793.6,555.0 802.4,555.0 811.2,555.0 820.0,535.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="549.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">253 commits</text>
+<text x="0" y="578" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">VERIFICATION</text>
+<line x1="0" y1="583" x2="920" y2="583" stroke="#30363d" stroke-width="1"/>
 <text x="0" y="605.0" font-size="13" font-weight="500" fill="#f0f6fc">VAMS-Conformance-Suite</text>
 <rect x="210" y="596.0" width="250" height="10" rx="3" fill="#3987e5"/>
 <text x="470" y="605.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">100% closed · 0 open</text>

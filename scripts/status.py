@@ -32,7 +32,7 @@ REPOS = [
     ("Simulation", "VerA", "test.yaml"),
     ("Simulation", "SpiceRack", "test.yaml"),
     ("Layout", "Philis", "ci.yml"),
-    ("Verification", "GPurify", "test.yml"),
+    ("Layout", "GPurify", "test.yml"),
     ("Verification", "VAMS-Conformance-Suite", "conformance.yml"),
 ]
 
