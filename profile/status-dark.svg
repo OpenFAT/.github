@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" role="img" aria-labelledby="t d">
+<title id="t">OpenFAT project status</title>
+<desc id="d">Per project: issues closed and still open, and commits per week over the last 26 weeks. The table below the chart has the same projects. Updated 2026-10-29.</desc>
+<text x="0" y="22" font-size="18" font-weight="600" fill="#f0f6fc">Project status</text>
+<text x="0" y="44" font-size="12" fill="#9198a1">Issues closed so far, and commits per week over the last 26 weeks (each row on its own scale). Updated 2026-10-29.</text>
+<rect x="210" y="66" width="10" height="10" rx="2" fill="#3987e5"/>
+<text x="225" y="75" font-size="12" fill="#9198a1">closed</text>
+<rect x="280" y="66" width="10" height="10" rx="2" fill="#184f95"/>
+<text x="295" y="75" font-size="12" fill="#9198a1">open</text>
+<text x="600" y="75" font-size="12" fill="#9198a1">commits per week · total</text>
+<text x="0" y="114" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">START A PROJECT</text>
+<line x1="0" y1="119" x2="920" y2="119" stroke="#30363d" stroke-width="1"/>
+<text x="0" y="141.0" font-size="13" font-weight="500" fill="#f0f6fc">AMTemplate</text>
+<text x="210" y="141.0" font-size="12" fill="#656c76">no issues yet</text>
+<line x1="600" y1="147.0" x2="820" y2="147.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,147.0 608.8,147.0 617.6,147.0 626.4,147.0 635.2,147.0 644.0,147.0 652.8,147.0 661.6,147.0 670.4,147.0 679.2,147.0 688.0,147.0 696.8,147.0 705.6,147.0 714.4,147.0 723.2,147.0 732.0,147.0 740.8,147.0 749.6,147.0 758.4,147.0 767.2,147.0 776.0,147.0 784.8,147.0 793.6,147.0 802.4,147.0 811.2,147.0 820.0,127.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="141.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">2 commits</text>
+<text x="0" y="170" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">SCHEMATIC</text>
+<line x1="0" y1="175" x2="920" y2="175" stroke="#30363d" stroke-width="1"/>
+<text x="0" y="197.0" font-size="13" font-weight="500" fill="#f0f6fc">Schemify</text>
+<rect x="210" y="188.0" width="154" height="10" rx="3" fill="#3987e5"/>
+<rect x="366" y="188.0" width="94" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="197.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">62% closed · 3 open</text>
+<line x1="600" y1="203.0" x2="820" y2="203.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,203.0 608.8,203.0 617.6,203.0 626.4,203.0 635.2,203.0 644.0,203.0 652.8,203.0 661.6,203.0 670.4,203.0 679.2,203.0 688.0,203.0 696.8,203.0 705.6,203.0 714.4,203.0 723.2,203.0 732.0,203.0 740.8,203.0 749.6,203.0 758.4,203.0 767.2,203.0 776.0,203.0 784.8,203.0 793.6,199.2 802.4,183.0 811.2,192.2 820.0,200.7" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="197.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">500 commits</text>
+<text x="0" y="227.0" font-size="13" font-weight="500" fill="#f0f6fc">Interoperate</text>
+<rect x="210" y="218.0" width="250" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="227.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">0% closed · 1 open</text>
+<line x1="600" y1="233.0" x2="820" y2="233.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,233.0 608.8,233.0 617.6,233.0 626.4,233.0 635.2,233.0 644.0,233.0 652.8,233.0 661.6,233.0 670.4,233.0 679.2,233.0 688.0,233.0 696.8,233.0 705.6,233.0 714.4,233.0 723.2,233.0 732.0,233.0 740.8,233.0 749.6,233.0 758.4,233.0 767.2,233.0 776.0,233.0 784.8,233.0 793.6,233.0 802.4,213.0 811.2,231.5 820.0,232.6" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="227.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">102 commits</text>
+<text x="0" y="257.0" font-size="13" font-weight="500" fill="#f0f6fc">cktImg</text>
+<rect x="210" y="248.0" width="123" height="10" rx="3" fill="#3987e5"/>
+<rect x="335" y="248.0" width="125" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="257.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">50% closed · 1 open</text>
+<line x1="600" y1="263.0" x2="820" y2="263.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,263.0 608.8,263.0 617.6,263.0 626.4,263.0 635.2,263.0 644.0,263.0 652.8,263.0 661.6,260.4 670.4,260.4 679.2,261.1 688.0,257.8 696.8,262.4 705.6,263.0 714.4,263.0 723.2,263.0 732.0,263.0 740.8,263.0 749.6,263.0 758.4,263.0 767.2,260.4 776.0,248.2 784.8,263.0 793.6,255.9 802.4,243.0 811.2,261.1 820.0,261.1" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="257.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">95 commits</text>
+<text x="0" y="287.0" font-size="13" font-weight="500" fill="#f0f6fc">PDK-Manager</text>
+<rect x="210" y="278.0" width="250" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="287.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">0% closed · 1 open</text>
+<line x1="600" y1="293.0" x2="820" y2="293.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,293.0 608.8,293.0 617.6,293.0 626.4,293.0 635.2,293.0 644.0,293.0 652.8,293.0 661.6,293.0 670.4,293.0 679.2,293.0 688.0,293.0 696.8,293.0 705.6,293.0 714.4,293.0 723.2,293.0 732.0,293.0 740.8,293.0 749.6,293.0 758.4,293.0 767.2,293.0 776.0,293.0 784.8,293.0 793.6,293.0 802.4,273.0 811.2,289.0 820.0,291.7" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="287.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">19 commits</text>
+<text x="0" y="317.0" font-size="13" font-weight="500" fill="#f0f6fc">GmId-Visualizer</text>
+<rect x="210" y="308.0" width="250" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="317.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">0% closed · 1 open</text>
+<line x1="600" y1="323.0" x2="820" y2="323.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,323.0 608.8,323.0 617.6,323.0 626.4,323.0 635.2,323.0 644.0,323.0 652.8,323.0 661.6,323.0 670.4,323.0 679.2,323.0 688.0,323.0 696.8,323.0 705.6,323.0 714.4,323.0 723.2,323.0 732.0,323.0 740.8,323.0 749.6,323.0 758.4,323.0 767.2,323.0 776.0,323.0 784.8,323.0 793.6,309.7 802.4,303.0 811.2,316.3 820.0,319.7" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="317.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">13 commits</text>
+<text x="0" y="347.0" font-size="13" font-weight="500" fill="#f0f6fc">Schemify-Themes</text>
+<text x="210" y="347.0" font-size="12" fill="#656c76">no issues yet</text>
+<line x1="600" y1="353.0" x2="820" y2="353.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,353.0 608.8,353.0 617.6,353.0 626.4,353.0 635.2,353.0 644.0,353.0 652.8,353.0 661.6,353.0 670.4,353.0 679.2,353.0 688.0,353.0 696.8,353.0 705.6,353.0 714.4,353.0 723.2,353.0 732.0,353.0 740.8,353.0 749.6,353.0 758.4,353.0 767.2,353.0 776.0,353.0 784.8,353.0 793.6,353.0 802.4,353.0 811.2,353.0 820.0,333.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="347.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">2 commits</text>
+<text x="0" y="376" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">SIMULATION</text>
+<line x1="0" y1="381" x2="920" y2="381" stroke="#30363d" stroke-width="1"/>
+<text x="0" y="403.0" font-size="13" font-weight="500" fill="#f0f6fc">EGSpice</text>
+<rect x="210" y="394.0" width="236" height="10" rx="3" fill="#3987e5"/>
+<rect x="448" y="394.0" width="12" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="403.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">95% closed · 11 open</text>
+<line x1="600" y1="409.0" x2="820" y2="409.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,404.1 608.8,405.2 617.6,405.1 626.4,404.2 635.2,405.7 644.0,405.7 652.8,405.4 661.6,405.4 670.4,405.4 679.2,405.8 688.0,406.0 696.8,404.8 705.6,406.0 714.4,405.1 723.2,404.5 732.0,404.9 740.8,404.8 749.6,405.1 758.4,404.9 767.2,405.4 776.0,405.1 784.8,404.7 793.6,404.9 802.4,405.2 811.2,389.0 820.0,407.4" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="403.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">789 commits</text>
+<text x="0" y="433.0" font-size="13" font-weight="500" fill="#f0f6fc">VerA</text>
+<rect x="210" y="424.0" width="250" height="10" rx="3" fill="#3987e5"/>
+<text x="470" y="433.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">100% closed · 0 open</text>
+<line x1="600" y1="439.0" x2="820" y2="439.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,436.3 608.8,435.8 617.6,436.1 626.4,435.6 635.2,435.5 644.0,435.3 652.8,435.2 661.6,435.9 670.4,436.1 679.2,435.9 688.0,436.5 696.8,436.1 705.6,435.9 714.4,435.6 723.2,435.8 732.0,435.4 740.8,436.6 749.6,436.2 758.4,436.2 767.2,435.7 776.0,435.5 784.8,435.9 793.6,435.5 802.4,435.0 811.2,419.0 820.0,436.8" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="433.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">1,446 commits</text>
+<text x="0" y="463.0" font-size="13" font-weight="500" fill="#f0f6fc">SpiceRack</text>
+<rect x="210" y="454.0" width="250" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="463.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">0% closed · 1 open</text>
+<line x1="600" y1="469.0" x2="820" y2="469.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,469.0 608.8,464.4 617.6,468.2 626.4,460.7 635.2,467.8 644.0,468.6 652.8,469.0 661.6,469.0 670.4,469.0 679.2,469.0 688.0,469.0 696.8,469.0 705.6,469.0 714.4,469.0 723.2,469.0 732.0,469.0 740.8,469.0 749.6,469.0 758.4,469.0 767.2,469.0 776.0,467.8 784.8,469.0 793.6,466.1 802.4,469.0 811.2,449.0 820.0,466.9" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="463.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">100 commits</text>
+<text x="0" y="492" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">LAYOUT</text>
+<line x1="0" y1="497" x2="920" y2="497" stroke="#30363d" stroke-width="1"/>
+<text x="0" y="519.0" font-size="13" font-weight="500" fill="#f0f6fc">Philis</text>
+<rect x="210" y="510.0" width="250" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="519.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">0% closed · 13 open</text>
+<line x1="600" y1="525.0" x2="820" y2="525.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,525.0 608.8,525.0 617.6,525.0 626.4,525.0 635.2,525.0 644.0,525.0 652.8,525.0 661.6,525.0 670.4,525.0 679.2,525.0 688.0,525.0 696.8,525.0 705.6,525.0 714.4,525.0 723.2,525.0 732.0,525.0 740.8,525.0 749.6,525.0 758.4,525.0 767.2,525.0 776.0,525.0 784.8,525.0 793.6,525.0 802.4,525.0 811.2,525.0 820.0,505.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="519.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">144 commits</text>
+<text x="0" y="548" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#656c76">VERIFICATION</text>
+<line x1="0" y1="553" x2="920" y2="553" stroke="#30363d" stroke-width="1"/>
+<text x="0" y="575.0" font-size="13" font-weight="500" fill="#f0f6fc">GPurify</text>
+<rect x="210" y="566.0" width="48" height="10" rx="3" fill="#3987e5"/>
+<rect x="260" y="566.0" width="200" height="10" rx="3" fill="#184f95"/>
+<text x="470" y="575.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">20% closed · 20 open</text>
+<line x1="600" y1="581.0" x2="820" y2="581.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,581.0 608.8,581.0 617.6,581.0 626.4,581.0 635.2,581.0 644.0,581.0 652.8,581.0 661.6,581.0 670.4,581.0 679.2,581.0 688.0,581.0 696.8,581.0 705.6,581.0 714.4,581.0 723.2,581.0 732.0,581.0 740.8,581.0 749.6,581.0 758.4,581.0 767.2,581.0 776.0,581.0 784.8,581.0 793.6,581.0 802.4,581.0 811.2,581.0 820.0,561.0" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="575.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">253 commits</text>
+<text x="0" y="605.0" font-size="13" font-weight="500" fill="#f0f6fc">VAMS-Conformance-Suite</text>
+<rect x="210" y="596.0" width="250" height="10" rx="3" fill="#3987e5"/>
+<text x="470" y="605.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">100% closed · 0 open</text>
+<line x1="600" y1="611.0" x2="820" y2="611.0" stroke="#30363d" stroke-width="1"/>
+<polyline points="600.0,611.0 608.8,611.0 617.6,611.0 626.4,611.0 635.2,611.0 644.0,611.0 652.8,611.0 661.6,611.0 670.4,611.0 679.2,611.0 688.0,611.0 696.8,611.0 705.6,611.0 714.4,611.0 723.2,611.0 732.0,611.0 740.8,611.0 749.6,611.0 758.4,611.0 767.2,611.0 776.0,611.0 784.8,611.0 793.6,611.0 802.4,611.0 811.2,591.0 820.0,606.3" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="605.0" font-size="12" fill="#9198a1" style="font-variant-numeric:tabular-nums">90 commits</text>
+</svg>
