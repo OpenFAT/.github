@@ -1,4 +1,4 @@
-Open-source tools for analog and mixed-signal IC design, from schematic to sign-off.
+Open-source Fast Analog Tooling (Open-FAT) for analog and mixed-signal IC design, from schematic to sign-off, trying to automate as much as possible, while giving you full controls over every tool with plugins.
 
 OpenFAT covers the steps of an analog design one tool at a time:
 - schematic capture in **Schemify**
