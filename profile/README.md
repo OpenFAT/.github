@@ -1,5 +1,3 @@
-# OpenFAT: Open Fast Analog-Tooling
-
 Open-source tools for analog and mixed-signal IC design, from schematic to sign-off.
 
 OpenFAT covers the steps of an analog design one tool at a time:
@@ -60,7 +58,3 @@ These tools are young and move quickly. The chart shows how much of each project
 | Verification | [GPurify](https://github.com/OpenFAT/GPurify) | A SIMD-First DRC, ERC, LVS, PEX engine, built for better checks than propietary work | [![CI](https://github.com/OpenFAT/GPurify/actions/workflows/test.yml/badge.svg)](https://github.com/OpenFAT/GPurify/actions/workflows/test.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/GPurify?label=last%20commit) |
 | Verification | [VAMS-Conformance-Suite](https://github.com/OpenFAT/VAMS-Conformance-Suite) | A conformance suite for Verilog-AMS (Containing Verilog-A & IEEE 1364 specifics) | [![CI](https://github.com/OpenFAT/VAMS-Conformance-Suite/actions/workflows/conformance.yml/badge.svg)](https://github.com/OpenFAT/VAMS-Conformance-Suite/actions/workflows/conformance.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/VAMS-Conformance-Suite?label=last%20commit) |
 <!-- status:end -->
-
-## Contributing
-
-Each tool has its own repository, issues and license. Report a problem or propose a change in the repository it belongs to.
