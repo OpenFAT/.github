@@ -22,8 +22,8 @@
 <rect x="366" y="188.0" width="94" height="10" rx="3" fill="#86b6ef"/>
 <text x="470" y="197.0" font-size="12" fill="#59636e" style="font-variant-numeric:tabular-nums">62% closed · 3 open</text>
 <line x1="600" y1="203.0" x2="820" y2="203.0" stroke="#d1d9e0" stroke-width="1"/>
-<polyline points="600.0,203.0 608.8,203.0 617.6,203.0 626.4,203.0 635.2,203.0 644.0,203.0 652.8,203.0 661.6,203.0 670.4,203.0 679.2,203.0 688.0,203.0 696.8,203.0 705.6,203.0 714.4,203.0 723.2,203.0 732.0,203.0 740.8,203.0 749.6,203.0 758.4,203.0 767.2,203.0 776.0,203.0 784.8,199.2 793.6,183.0 802.4,192.2 811.2,186.6 820.0,202.8" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="830" y="197.0" font-size="12" fill="#59636e" style="font-variant-numeric:tabular-nums">694 commits</text>
+<polyline points="600.0,203.0 608.8,203.0 617.6,203.0 626.4,203.0 635.2,203.0 644.0,203.0 652.8,203.0 661.6,203.0 670.4,203.0 679.2,203.0 688.0,203.0 696.8,203.0 705.6,203.0 714.4,203.0 723.2,203.0 732.0,203.0 740.8,203.0 749.6,203.0 758.4,203.0 767.2,203.0 776.0,203.0 784.8,199.2 793.6,183.0 802.4,192.2 811.2,186.6 820.0,202.6" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830" y="197.0" font-size="12" fill="#59636e" style="font-variant-numeric:tabular-nums">697 commits</text>
 <text x="0" y="226" font-size="11" font-weight="600" letter-spacing="0.06em" fill="#818b98">SCHEMIFY PLUGINS</text>
 <line x1="0" y1="231" x2="920" y2="231" stroke="#d1d9e0" stroke-width="1"/>
 <text x="0" y="253.0" font-size="13" font-weight="500" fill="#1f2328">Interoperate</text>
