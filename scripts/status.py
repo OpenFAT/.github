@@ -28,7 +28,7 @@ REPOS = [
     ("Schemify plugins", "PDK-Manager", "ci.yml"),
     ("Schemify plugins", "GmId-Visualizer", "ci.yml"),
     ("Schemify plugins", "Schemify-Themes", "gate.yaml"),
-    ("Simulation", "EGSpice", "test.yml"),
+    ("Simulation", "ESPice", "test.yml"),
     ("Simulation", "VerA", "test.yaml"),
     ("Layout", "Philis", "ci.yml"),
     ("Layout", "GPurify", "test.yml"),

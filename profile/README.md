@@ -2,7 +2,7 @@ Open-source Fast Analog Tooling (Open-FAT) for analog and mixed-signal IC design
 
 OpenFAT covers the steps of an analog design one tool at a time:
 - schematic capture in **Schemify**
-- SPICE simulation in **EGSpice**, with device models written in Verilog-A and compiled by **VerA**
+- SPICE simulation in **ESPice**, with device models written in Verilog-A and compiled by **VerA**
 - layout from a netlist in **Philis**
 - DRC, LVS, ERC and PEX in **GPurify**
 
@@ -11,7 +11,7 @@ Each tool also works on its own beside the tools you already use. Schemify write
 ```mermaid
 flowchart LR
   T["AMTemplate<br/>project template"] --> S["Schemify<br/>schematic"]
-  S -->|netlist| E["EGSpice<br/>simulation"]
+  S -->|netlist| E["ESPice<br/>simulation"]
   V["VerA<br/>Verilog-A models"] --> E
   S -->|netlist| P["Philis<br/>layout"]
   P -->|GDS| G["GPurify<br/>DRC · LVS · PEX"]
@@ -26,8 +26,8 @@ These commands need [Nix](https://nixos.org/download/) or a Linux or macOS shell
 nix run 'github:OpenFAT/Schemify#latest' -- path/to/cell.shcomp
 
 # Simulate a SPICE deck (built from source), or install the release binary
-nix run github:OpenFAT/EGSpice -- deck.sp
-curl -fsSL https://raw.githubusercontent.com/OpenFAT/EGSpice/main/tools/install.sh | sh
+nix run github:OpenFAT/ESPice -- deck.sp
+curl -fsSL https://raw.githubusercontent.com/OpenFAT/ESPice/main/tools/install.sh | sh
 ```
 
 To start a whole chip or block, create a repository from [AMTemplate](https://github.com/OpenFAT/AMTemplate) (**Use this template**), then run `make -C .flows CreateProject PROJECT_NAME=my_chip PROJECT_TYPE=mixed`.
@@ -51,10 +51,10 @@ These tools are young and move quickly. The chart shows how much of each project
 | Schemify plugins | [PDK-Manager](https://github.com/OpenFAT/PDK-Manager) | Interface to allow easy usage of PDKs (open-source and propietary over ssh) | [![CI](https://github.com/OpenFAT/PDK-Manager/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenFAT/PDK-Manager/actions/workflows/ci.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/PDK-Manager?label=last%20commit) |
 | Schemify plugins | [GmId-Visualizer](https://github.com/OpenFAT/GmId-Visualizer) | A Gm/Id visualizer written in C++ | [![CI](https://github.com/OpenFAT/GmId-Visualizer/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenFAT/GmId-Visualizer/actions/workflows/ci.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/GmId-Visualizer?label=last%20commit) |
 | Schemify plugins | [Schemify-Themes](https://github.com/OpenFAT/Schemify-Themes) | spicetify's theme catalogue for Schemify: 16 themes, 115 colour schemes, View → Themes | [![CI](https://github.com/OpenFAT/Schemify-Themes/actions/workflows/gate.yaml/badge.svg)](https://github.com/OpenFAT/Schemify-Themes/actions/workflows/gate.yaml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/Schemify-Themes?label=last%20commit) |
+| Simulation | [ESPice](https://github.com/OpenFAT/ESPice) | Fast Spice Simulations, with Verilog-AMS support using VerA | [![CI](https://github.com/OpenFAT/ESPice/actions/workflows/test.yml/badge.svg)](https://github.com/OpenFAT/ESPice/actions/workflows/test.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/ESPice?label=last%20commit) |
 | Simulation | [VerA](https://github.com/OpenFAT/VerA) | A Verilog-AMS Compiler with SIMD and GPU support as first-class residents | [![CI](https://github.com/OpenFAT/VerA/actions/workflows/test.yaml/badge.svg)](https://github.com/OpenFAT/VerA/actions/workflows/test.yaml) [![release](https://img.shields.io/github/v/release/OpenFAT/VerA?label=release)](https://github.com/OpenFAT/VerA/releases/latest) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/VerA?label=last%20commit) |
 | Layout | [Philis](https://github.com/OpenFAT/Philis) | Automated ANalog P&R Engine that doesn't use ML | [![CI](https://github.com/OpenFAT/Philis/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenFAT/Philis/actions/workflows/ci.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/Philis?label=last%20commit) |
 | Layout | [GPurify](https://github.com/OpenFAT/GPurify) | A SIMD-First DRC, ERC, LVS, PEX engine, built for better checks than propietary work | [![CI](https://github.com/OpenFAT/GPurify/actions/workflows/test.yml/badge.svg)](https://github.com/OpenFAT/GPurify/actions/workflows/test.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/GPurify?label=last%20commit) |
 | Suites | [VAMS-Conformance-Suite](https://github.com/OpenFAT/VAMS-Conformance-Suite) | A conformance suite for Verilog-AMS (Containing Verilog-A & IEEE 1364 specifics) | [![CI](https://github.com/OpenFAT/VAMS-Conformance-Suite/actions/workflows/conformance.yml/badge.svg)](https://github.com/OpenFAT/VAMS-Conformance-Suite/actions/workflows/conformance.yml) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/VAMS-Conformance-Suite?label=last%20commit) |
 | Libraries | [SpiceRack](https://github.com/OpenFAT/SpiceRack) | A Spice Interface in Python that has universal syntax, emits any SPICE backend of the user's choice | [![CI](https://github.com/OpenFAT/SpiceRack/actions/workflows/test.yaml/badge.svg)](https://github.com/OpenFAT/SpiceRack/actions/workflows/test.yaml) [![release](https://img.shields.io/github/v/release/OpenFAT/SpiceRack?label=release)](https://github.com/OpenFAT/SpiceRack/releases/latest) ![last commit](https://img.shields.io/github/last-commit/OpenFAT/SpiceRack?label=last%20commit) |
-| Other | [ESPice](https://github.com/OpenFAT/ESPice) | Fast Spice Simulations, with Verilog-AMS support using VerA | ![last commit](https://img.shields.io/github/last-commit/OpenFAT/ESPice?label=last%20commit) |
 <!-- status:end -->
