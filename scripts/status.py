@@ -23,17 +23,17 @@ WEEKS = 26
 REPOS = [
     ("Start a project", "AMTemplate", "ci.yaml"),
     ("Schematic", "Schemify", "ci.yml"),
-    ("Schematic", "Interoperate", "ci.yml"),
-    ("Schematic", "cktImg", "ci.yml"),
-    ("Schematic", "PDK-Manager", "ci.yml"),
-    ("Schematic", "GmId-Visualizer", "ci.yml"),
-    ("Schematic", "Schemify-Themes", "gate.yaml"),
+    ("Schemify plugins", "Interoperate", "ci.yml"),
+    ("Schemify plugins", "cktImg", "ci.yml"),
+    ("Schemify plugins", "PDK-Manager", "ci.yml"),
+    ("Schemify plugins", "GmId-Visualizer", "ci.yml"),
+    ("Schemify plugins", "Schemify-Themes", "gate.yaml"),
     ("Simulation", "EGSpice", "test.yml"),
     ("Simulation", "VerA", "test.yaml"),
-    ("Simulation", "SpiceRack", "test.yaml"),
     ("Layout", "Philis", "ci.yml"),
     ("Layout", "GPurify", "test.yml"),
-    ("Verification", "VAMS-Conformance-Suite", "conformance.yml"),
+    ("Suites", "VAMS-Conformance-Suite", "conformance.yml"),
+    ("Libraries", "SpiceRack", "test.yaml"),
 ]
 
 # Ordinal blue pair validated with the dataviz validator (closed > open) on GitHub's surfaces.
